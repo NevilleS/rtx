@@ -1,0 +1,23 @@
+/************************************************************
+*               MTE 241: RTOS Project (RTX)                 *
+************************************************************/
+
+========================SUMMARY==============================
+
+This is a simple RTOS (real time OS) project submitted for credit at the University of Waterloo for MTE241.
+The "OS" itself is actually just another implementation of user-space threads, and it runs a couple simplistic user
+processes o demonstrate the task scheduler, messaging services, etc. It is written in C++ for compilation on UNIX
+systems and uses the curses library for a simplistic UI.
+
+========================AUTHORS==============================
+Jonathan Clark
+Christopher Hennig
+Neville Samuell
+Matthew Wettlaufer
+
+================HOW TO COMPILE AND EXECUTE====================
+
+The RTX can be compiled in a single command using the included Makefile.
+The default target builds all three executables (RTX.out, KB.out, DSP.out).
+Type "make" in the top-level directory and the three executables will be generated in the "bin" directory. The RTX
+runs by executing RTX.out, and is terminated either by the CCI "t" command or by pressing Ctrl+C.
